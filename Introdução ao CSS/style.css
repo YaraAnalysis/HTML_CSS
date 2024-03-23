@@ -1,0 +1,26 @@
+/* Tags, IDs, Classes */
+
+/* Tag */
+
+h1 {
+  color: orange;
+}
+
+/* p span {
+  font-size: 12px;
+  color: blue;
+} */
+
+.paragrafoBloco1 {
+  font-size: 24px;
+}
+
+.paragrafoBloco2 {
+  font-size: 28px;
+  color: red;
+}
+
+p .spanTextinho {
+  font-size: 12px;
+  color: blue;
+}
