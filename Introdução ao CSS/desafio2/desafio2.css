@@ -1,0 +1,18 @@
+/* Cabeçalho */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a {
+  color: #112e61;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Seção Hero */
