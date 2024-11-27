@@ -11,12 +11,15 @@
         <h2>Newsletter</h2>
         <form action="" method="">
           <div>
-            <label for="name">Nome:</label>
+            <label for="name">Nome: (apenas letras)</label>
             <input
               id="name"
               name="name"
               type="text"
+              pattern="[a-zA-Z]+"
+              title="Esse input só aceita letras, não aceita números."
               placeholder="Seu primeiro nome"
+              required
             />
           </div>
 
@@ -27,6 +30,7 @@
               name="email"
               type="email"
               placeholder="Seu melhor e-mail"
+              required
             />
           </div>
 
